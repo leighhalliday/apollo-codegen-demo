@@ -1,0 +1,41 @@
+{
+  "name": "house",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "@prisma/client": "~2.11.0",
+    "apollo-server-micro": "^2.19.0",
+    "autoprefixer": "^10.0.2",
+    "class-validator": "^0.12.2",
+    "graphql": "^15.4.0",
+    "next": "10.0.1",
+    "postcss": "^8.1.7",
+    "postcss-import": "^14.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "reflect-metadata": "^0.1.13",
+    "tailwindcss": "^2.0.1",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@types/react": "^16.9.56",
+    "apollo": "^2.32.0",
+    "babel-plugin-parameter-decorator": "^1.0.16",
+    "babel-plugin-transform-typescript-metadata": "^0.3.1",
+    "postcss-flexbugs-fixes": "^5.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "resolutions": {
+    "graphql": "15.4"
+  }
+}
