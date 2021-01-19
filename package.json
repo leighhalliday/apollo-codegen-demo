@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "codegen:local": "yarn run apollo client:codegen --target typescript --localSchemaFile schema.gql --outputFlat --includes \"{pages,src}/**\" --excludes \"src/generated\" src/generated",
+    "codegen:endpoint": "yarn run apollo client:codegen --target typescript --endpoint http://localhost:3000/api/graphql --outputFlat --includes \"{pages,src}/**\" --excludes \"src/generated\" src/generated"
   },
   "dependencies": {
     "@apollo/client": "^3.2.5",
